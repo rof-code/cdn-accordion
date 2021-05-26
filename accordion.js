@@ -1,6 +1,5 @@
-const questions = document.querySelectorAll('.question');
-questions.forEach(element => {
-  element.addEventListener('click', () => {
-      alert('clickado');
-  }
-})
+var duvidas = document.querySelector('.duvidasHome');
+
+duvidas.addEventListener('click', () => {
+  alert('clickado');
+}
